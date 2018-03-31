@@ -32,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
         PARAM[0] = Color.RED;//цвет для холодного сч.
         PARAM[1] = Color.BLUE;//цвет для горячего сч.
         //********************
-        //Вариант с картинокй
+        //Вариант 1 с картинокй
         //im.setImageResource(R.drawable.ring);
 
-        //Вариант с рисованием круга
+        //Вариант 2 с рисованием круга
         create_circle();
 
         im.setOnClickListener(new View.OnClickListener() {  //нажатие на круг
